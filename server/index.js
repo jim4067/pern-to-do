@@ -1,5 +1,6 @@
 const cors = require('cors');
 const express = require('express');
+const pool = ruquire('./db');
 
 const app = express();
 

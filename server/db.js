@@ -9,3 +9,5 @@ const pool = new Pool ({
 });
 
 module.exports = pool;
+
+//by default postgres runs on 5432

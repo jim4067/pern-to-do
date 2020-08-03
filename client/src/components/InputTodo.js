@@ -40,7 +40,7 @@ const InputTodo = () => {
                 body: JSON.stringify(body)
             });
 
-            console.log("the response.......", response);
+            window.location = '/';
         } catch (err) {
             console.error("Ahh shit... ", err.message);
         }
